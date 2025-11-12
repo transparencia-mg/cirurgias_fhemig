@@ -1,0 +1,85 @@
+{
+  "version": "4.16.6",
+  "time": 0.027,
+  "errors": [],
+  "tasks": [
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "cirurgia_2017",
+        "path": "data/cirurgia_2017.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "unidade",
+              "type": "string"
+            },
+            {
+              "name": "mes",
+              "type": "string"
+            },
+            {
+              "name": "ano",
+              "type": "integer"
+            },
+            {
+              "name": "porte",
+              "type": "string"
+            },
+            {
+              "name": "quantidade",
+              "type": "integer"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "5df21681c63906eebb7e4807382232b9",
+          "bytes": 21877,
+          "fields": 5,
+          "rows": 497
+        }
+      },
+      "time": 0.018,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    }
+  ],
+  "stats": {
+    "errors": 0,
+    "tasks": 1
+  },
+  "valid": true
+}
